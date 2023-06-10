@@ -1,0 +1,74 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-green-2{
+    background-color: rgb(7, 171, 64);
+}
+.bg-green{
+    background-color: rgb(14, 253, 98);
+    font-weight: 700;
+}
+video{
+    width: 100%;
+}
+#video_main{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+#main_title{
+   
+    font-size: 10vw;
+    
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(14, 253, 98);
+    line-height: 1.5;
+}
+#under_title{
+    color: white;
+    
+    font-size: 5vw;
+    
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0.1;
+}
+#title{
+    position: absolute;
+    top: 20%;
+    font-family: 'Jockey One', sans-serif;
+}
+#card{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+}
+#link_g{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(14, 253, 98);
+    border-radius: 20px;
+    
+}
+#link_gt{
+    background-color: blueviolet;
+    border-radius: 20px;
+    a{
+        color: white;
+        text-decoration:none;
+    }
+}
